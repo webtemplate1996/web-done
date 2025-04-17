@@ -1,0 +1,101 @@
+.contacto {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+
+.formulario-contacto {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.contact-img-1{
+    width: 30%;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 6px 6px 1px rgb(110, 110, 110);
+}
+
+.contact-p-29{
+    width: 25%;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+    /* border: 1px solid white; */
+
+    color: #a60202;
+}
+
+.contact-h1{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    color: white;
+}
+.contacto h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-p-23 {
+    width: 100%;
+    height: auto;
+    font-size: 36px;
+    color: #fd0000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos del formulario */
+
+
+.campo-formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.campo-formulario label {
+    font-size: 14px;
+    color: #ff0000;
+    margin-bottom: 5px;
+}
+
+.campo-formulario input,
+.campo-formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+
+.boton-enviar {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-enviar:hover {
+    background-color: #a60202; /* Cambia de color al pasar el mouse */
+}

@@ -1,0 +1,1454 @@
+
+@media(max-width:1445px) {
+    /* ----------------------------cabecera y barra de navegacion -------------------------- */
+    .menu-btn{
+        display: none;
+    }
+    .div-logo-name{
+        width: 35%;
+        height: auto;
+        /* border: 1px solid rgb(217, 0, 0); */
+        
+    }
+    .logo{
+        width: 20%;
+    }
+    .name-company{
+        width: 100%;
+        height: auto;
+        font-size: 25px;
+    }
+
+    .link{
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .btn{
+        background-color: red;
+        color:white;
+        width: 100px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 10px;
+        font-family: "oswald";
+        text-decoration: none;
+    }
+    
+    .close{
+        display: none;
+    }
+
+    /*--------------------------------- primera seccion------------------------- */
+
+    .shadow-h1{
+        font-size: 30px;
+    }
+    .shadow{
+        font-size:80px;
+    }
+    .p{
+        font-size: 25px;
+    }
+    .since-h1{
+        font-size: 40px;
+    }
+    .since-p{
+        font-size: 30px;
+    }
+    .link2{
+        font-size: 30px;
+    }
+
+    /* -------------------------------- seccion segunda --------------------------------*/
+
+    
+    .services{
+        /* border: 1px solid white; */
+        margin-left: 5px;
+    }
+    .shadow-2{
+        font-size: 100px;
+    }
+
+    .shadow-2-h2{
+        font-size: 70px;
+    }
+
+    .intro-p{
+        font-size: 30px;
+    }
+    .corte-pelo{
+        font-size: 30px;
+    }
+    .H-cut{
+        width: 40%;
+    }
+    .service-box-p{
+        font-size: 20px;
+    }
+
+    /* ---------------------------- seccion tercero ---------------------------------*/
+
+    .horario-h1{
+        width: 100%;
+        font-size: 30px;
+        /* border: 1px solid white; */
+    }
+
+    .horario-p{
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .horario-a{
+        font-size: 25px;
+    }
+
+    .h-b{
+        font-size: 30px;
+    }
+
+    .div-horas{
+        width: 100%;
+    }
+
+    .dias{
+        font-size: 25px;
+    }
+
+    /*------------------------------------- footer ------------------------------------------*/
+    /* .contacto{
+        width: 90%;
+        height: auto;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .formulario-contacto{
+        width: 50%;
+        height: auto;
+    } */
+    .footer-name{
+        font-size: 25px;
+    }
+
+    .up{
+        font-size: 30px;
+    }
+    .img-tele{
+        width: 10%;
+    }
+    .num{
+        font-size: 30px;
+    }
+    .direccion{
+        font-size: 30px;
+    }
+    .mail{
+        font-size: 30px;
+    }
+
+    .reserva-h1{
+        font-size: 30px;
+    }
+
+    .p-reserva{
+        font-size: 25px;
+    }
+    .btn-reserva{
+        font-size: 25px;
+    }
+
+    /*---------------------------------------- servicios -----------------------------------*/
+
+    .service-h2{
+        font-size: 100px;
+    }
+    .service-h1{
+        font-size: 35px;
+    }
+
+    .service-p2{
+        font-size: 30px;
+    }
+
+    .service-p{
+        font-size: 30px;
+    }
+    .reserva-service{
+        width: 50%;
+    }
+
+    /* ------------------------------ aserca de --------------------------*/
+
+    .main-h1{
+        font-size: 30px;
+    }
+    .main-h2{
+        font-size: 25px;
+    }
+    .aserca-a{
+        width: 25%;
+        font-size: 35px;
+    }
+    .main-h2-p{
+        font-size: 20px;
+    }
+
+    .img-main{
+        width: 90%;
+    }
+    /*------------------------------- contact0 ----------------------------------*/
+    .contacto{
+        width: 100%;
+        height: auto;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;   
+        gap: 30px;
+        /* border: 1px solid white; */
+    }
+    .contact-img-1{
+        width: 60%;
+        height: auto;
+    }
+
+    .contact-p-29{
+        width: 100%;
+
+    }
+    .formulario-contacto{
+        width: 50%;
+    }
+
+    .campo-formulario{
+        width: 100%;
+        
+    }
+    label{
+        display: none;
+    }
+    input{
+        height: 60px;
+    }
+    input::placeholder{
+        font-size: 20px;
+    }
+    textarea::placeholder{
+        font-size: 20px;
+        height: 60px;
+    }
+    .contact-h1{
+        font-size: 35px;
+    }
+
+    .contacto-p{
+        font-size: 30px;
+    }
+    /* .boton-enviar{
+        
+    } */
+}
+
+@media(max-width: 1025px) {
+
+    /* ----------------------------cabecera y barra de navegacion -------------------------- */
+    .menu-btn{
+        display: none;
+    }
+    .name-company{
+        width: 30%;
+        height: auto;
+        font-size: 18px;
+    }
+
+    .div-logo-name{
+        width: 50%;
+    }
+
+    .link{
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+    .btn{
+        font-size: 18px;
+    }
+    
+    .close{
+        display: none;
+    }
+
+    /*--------------------------------- primera seccion------------------------- */
+
+    .shadow-h1{
+        font-size: 20px;
+        margin-left: -10px;
+        margin-bottom: 20px;
+    }
+    .shadow{
+        font-size:50px;
+    }
+    .p{
+        font-size: 18px;
+    }
+    .since-h1{
+        font-size: 30px;
+    }
+    .since-p{
+        font-size: 20px;
+    }
+    .link2{
+        font-size: 20px;
+    }
+
+    /* -------------------------------- seccion segunda --------------------------------*/
+
+    
+    .services{
+        /* border: 1px solid white; */
+        margin-left: 5px;
+    }
+    
+    .shadow-2{
+        font-size: 80px;
+        margin-left: 10px;
+    }
+
+    .shadow-2-h2{
+        font-size: 60px;
+        margin-left: 5px;
+    }
+
+    .intro-p{
+        font-size: 25px;
+    }
+    .corte-pelo{
+        font-size: 25px;
+    }
+    .H-cut{
+        width: 30%;
+    }
+
+    .services{
+        width: 100%;
+        margin-left: -90px;
+    }
+    .service-box-2{
+        width: 100%;
+    }
+
+    .service-box-3{
+        width: 100%;
+    }
+    .service-box-p{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    /* ---------------------------- seccion tercero ---------------------------------*/
+
+    .horario-h1{
+        width: 100%;
+        font-size: 20px;
+        /* border: 1px solid white; */
+    }
+    .horario{
+        width: 35%;
+        height: auto;
+        /* border: 1px solid white; */
+        margin-left: 0;
+    }
+
+    .horario-open{
+        width: 75%;
+        height: auto;
+        /* border: 1px solid white; */
+    }
+
+    .horario-p{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .horario-a{
+        font-size: 18px;
+    }
+
+    .h-b{
+        font-size: 20px;
+    }
+
+    .div-horas{
+        width: 100%;
+    }
+
+    .dias{
+        font-size: 20px;
+    }
+
+    /*------------------------------------- footer ------------------------------------------*/
+
+    .footer-name{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .up{
+        font-size: 20px;
+    }
+    .img-tele{
+        width: 10%;
+    }
+    .num{
+        font-size: 20px;
+    }
+    .direccion{
+        font-size: 20px;
+    }
+    .mail{
+        font-size: 20px;
+    }
+
+    .reserva-h1{
+        font-size: 20px;
+    }
+
+    .p-reserva{
+        font-size: 18px;
+    }
+    .btn-reserva{
+        font-size: 15px;
+    }
+
+    /*---------------------------------------- servicios -----------------------------------*/
+
+    .service-h2{
+        font-size: 60px;
+    }
+    .service-h1{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .img-service{
+        width: 45%;
+    }
+
+    .service-p2{
+        font-size: 18px;
+    }
+
+    .service-p{
+        font-size: 18px;
+    }
+    .reserva-service{
+        width: 50%;
+        font-size: 25px;
+    }
+    .barber-top{
+        font-size: 20px;
+    }
+    .pri{
+        font-size: 20px;
+    }
+
+    /* ------------------------------ aserca de --------------------------*/
+
+    .main-h1{
+        font-size: 30px;
+    }
+    .main-h2{
+        font-size: 25px;
+    }
+    .aserca-a{
+        width: 25%;
+        font-size: 35px;
+    }
+    .main-h2-p{
+        font-size: 20px;
+    }
+    /*------------------------------- contact0 ----------------------------------*/
+    .contact-h1{
+        font-size: 25px;
+    }
+
+    .contact-p-23{
+        font-size: 25px;
+    }
+    
+    
+    
+    
+    
+    .campo-formulario label {
+        font-size: 15px;
+        color: #ff0000;
+        margin-bottom: 5px;
+    }
+    
+    .campo-formulario input,
+    .campo-formulario textarea {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    input{
+        height: 40px;
+    }
+    
+    .boton-enviar {
+        background-color: #ff0000;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .boton-enviar:hover {
+        background-color: #a60202; /* Cambia de color al pasar el mouse */
+    }
+
+    
+}
+
+@media(max-width:769px) {
+    /* ----------------------------cabecera y barra de navegacion -------------------------- */
+    .menu-btn{
+        display: none;
+    }
+    .name-company{
+        width: 40%;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .link{
+        font-size: 12px;
+        text-decoration: none;
+    }
+    
+    .btn{
+        width: 6%;
+        font-size: 10px;
+    }
+    
+    .close{
+        display: none;
+    }
+
+    /*--------------------------------- primera seccion------------------------- */
+
+    .seccion{
+        margin-top: -220px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name-shadow{
+        width: 80%;
+        height: auto;
+    }
+
+    .shadow-h1{
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .shadow{
+        width: 100%;
+        height: auto;
+        font-size:50px;
+    }
+    .section-box{
+        width: 100%;
+    }
+
+    .p{
+        font-size: 15px;
+    }
+    .since-h1{
+        font-size: 20px;
+    }
+    .since-p{
+        font-size: 20px;
+    }
+    .link2{
+        font-size: 20px;
+    }
+
+    /* -------------------------------- seccion segunda --------------------------------*/
+
+    
+    .shadow-2{
+        font-size: 70px;
+        margin-left: 10px;
+    }
+
+    .shadow-2-h2{
+        font-size: 50px;
+        margin-left: 5px;
+    }
+    .service-intro{
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .intro-p{
+        width: 100%;
+        height: auto;
+
+        margin-left: -10px;
+        font-size: 20px;
+    }
+    .corte-pelo{
+        font-size: 18px;
+    }
+    .H-cut{
+        width: 30%;
+    }
+
+    .services{
+        width: 100%;
+        margin-left: -90px;
+    }
+    .service-box-2{
+        width: 100%;
+    }
+
+    .service-box-3{
+        width: 100%;
+    }
+    .service-box-p{
+        width: 100%;
+        font-size: 13px;
+    }
+    .price{
+        font-size: 18px;
+    }
+
+    /* ---------------------------- seccion tercero ---------------------------------*/
+
+    .seccion-3{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .horario-h1{
+        width: 100%;
+        font-size: 20px;
+        /* border: 1px solid white; */
+    }
+    .horario{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        margin-left: 0;
+    }
+
+    .horario-open{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        /* border: 1px solid white; */
+    }
+
+    .horario-p{
+        width: 100%;
+        height: auto;
+        margin-left: -5px;
+        font-size: 18px;
+    }
+
+    .horario-a{
+        font-size: 18px;
+        margin-left: 40%;
+    }
+
+    .h-b{
+        font-size: 20px;
+    }
+
+    .div-horas{
+        width: 100%;
+
+    }
+
+    .dias{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*------------------------------------- footer ------------------------------------------*/
+
+    footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid white; */
+    }
+
+    .footer-logo{
+        width: 10%;
+    }
+
+    .contact-footer{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+
+        margin-top: 40px;
+    }
+
+    .footer-name{
+        width: 30%;
+        font-size: 20px;
+        /* border: 1px solid white; */
+        margin-right:10px;
+    }
+    .footer-div1{
+        width: 90%;
+        height: auto;
+        position: absolute;
+        justify-content: space-between;
+        /* border: 1px solid rgb(229, 0, 0); */
+    }
+    .footer-div2{
+        width: 60%;
+        height: auto;
+
+        /* border: 1px solid red; */
+    }
+    .up{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .img-tele{
+        width: 10%;
+    }
+    .num{
+        width: 50%;
+        /* border: 1px solid white; */
+        font-size: 20px;
+    }
+    .direccion{
+        width: 100%;
+        /* border: 1px solid white; */
+        font-size: 20px;
+    }
+    .mail{
+        width: 100%;
+        /* border: 1px solid white; */
+        font-size: 20px;
+    }
+
+    .redes{
+        padding: 10px;
+        /* border: 1px solid white; */
+    }
+
+    .redes2{
+        width: 45%;
+        height: auto;
+    }
+
+
+    .reserva-h1{
+        font-size: 20px;
+        color: red;
+    }
+
+    .div-reserva{
+        width: 100%;
+        height: auto;
+        gap: 5px;
+    }
+    .p-reserva{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        font-size: 18px;
+        margin-left: 25px;
+        
+    }
+    .btn-reserva{
+        font-size: 15px;
+        margin: 30px;
+    }
+
+    /*---------------------------------------- servicios -----------------------------------*/
+
+    .service-h2{
+        font-size: 40px;
+    }
+    .service-h1{
+        font-size: 20px;
+        margin-top:40px;
+    }
+
+    .service-p2{
+        font-size: 15px;
+    }
+
+
+    .img-service{
+        width: 40%;
+        margin: 20px;
+        
+    }
+
+    .service-p{
+        font-size: 15px;
+    }
+    .reserva-service{
+        font-size: 15px;
+        margin-left: 70px;
+    }
+    .div-info-principal{
+        width: 100%;
+        /* border: 1px solid red; */
+
+        display: flex;
+        justify-content: center;
+
+        padding: 0;
+    }
+    .service-info{
+        width: 100%;
+        /* border: 1px solid red; */
+        text-align: center;
+
+    }
+    .div-price{
+        width: 100%;
+        height: auto;
+
+        display: none;
+    }
+    .barber-top{
+        width: 70%;
+        font-size: 12px;
+        /* border: 1px solid white; */
+    }
+    .pri{
+        font-size: 10px;
+    }
+
+    /* ------------------------------ aserca de --------------------------*/
+
+    .main-h1{
+        font-size: 25px;
+    }
+    .main-h2{
+        font-size: 20px;
+    }
+    .aserca-a{
+        width: 25%;
+        font-size: 20px;
+    }
+    .main-h2-p{
+        font-size: 15px;
+    }
+    /*------------------------------- contact0 ----------------------------------*/
+    .contact-h1{
+        font-size: 20px;
+    }
+
+    .contact-p-23{
+        font-size: 18px;
+    }
+    .contacto-p{
+        width: auto;
+        font-size: 15px;
+    }
+    
+    input::placeholder{
+        font-size: 15px;
+    }
+    
+    .campo-formulario label {
+        font-size: 10px;
+        /* color: #ff0000; */
+        margin-bottom: 5px;
+    }
+    
+    .campo-formulario input,
+    .campo-formulario textarea {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    textarea::placeholder{
+        font-size: 15px;
+    }
+    
+    .boton-enviar {
+        background-color: #ff0000;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .boton-enviar:hover {
+        background-color: #a60202; /* Cambia de color al pasar el mouse */
+    }
+
+    
+}
+
+@media(max-width:426px){
+     /* ----------------------------cabecera y barra de navegacion -------------------------- */
+    
+    .name-company{
+        width: 75%;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .div-links{
+        display: none;
+    }
+
+    .div-links.visible{
+        display: block;
+        width: 40%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+        top: 11px;
+        left: 9px;
+        z-index: 2;
+
+        background-color: rgb(33, 33, 33);
+        box-shadow: 1px 1px 10px white;
+
+        border-radius: 25px;
+    }
+
+    .logo{
+        width: 25%;
+    }
+    .link{
+        font-size: 15px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    .btn{
+        width: auto;
+        font-size: 13px;
+    }
+    
+    .close{
+        display:block;
+
+        position: absolute;
+        top: 10px;
+        left: 10px;
+
+        font-size: 30px;
+        color: rgb(114, 0, 0);
+    }
+    .menu-btn{
+        display: block;
+        width: 60px;
+        /* border: 1px solid white; */
+        color: rgb(234, 77, 77);
+
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        top: 40px;
+        left: 8px;
+    }
+
+
+    .nav-{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /*--------------------------------- primera seccion------------------------- */
+
+    .seccion{
+        margin-top: -220px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name-shadow{
+        width: 80%;
+        height: auto;
+    }
+
+    .shadow-h1{
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .shadow{
+        width: 100%;
+        height: auto;
+        font-size:30px;
+    }
+    .section-box{
+        width: 100%;
+    }
+
+    .p{
+        font-size: 15px;
+    }
+    .since-h1{
+        font-size: 15px;
+        color: red;
+    }
+    .since-p{
+        font-size: 15px;
+    }
+    .link2{
+        font-size: 15px;
+    }
+
+    /* -------------------------------- seccion segunda --------------------------------*/
+
+    
+    .shadow-2{
+        font-size: 50px;
+        margin-left: 10px;
+    }
+
+    .shadow-2-h2{
+        font-size: 40px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    .service-intro{
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .intro-p{
+        width: 100%;
+        height: auto;
+
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .corte-pelo{
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .H-cut{
+        width: 30%;
+    }
+
+    .services{
+        width: 100%;
+        margin-left: 0px;
+        /* border: 1px solid rgb(216, 31, 31); */
+
+        flex-direction: column;
+        align-items: center;
+    }
+    .small-box{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid rgb(8, 37, 255); */
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .service-box{
+        width: 100%;
+        /* border: 1px solid white; */
+        margin-left: 0px;
+        align-items: center;
+    }
+    .service-box-2{
+        width: auto;
+        /* border: 1px solid rgb(12, 234, 234); */
+        margin-left: 0px;
+    }
+
+    .service-box-3{
+        width: auto;
+        margin-left: 0;
+    }
+    .service-box-p{
+        width: 100%;
+        font-size: 13px;
+        /* border: 1px solid green; */
+        /* margin-left: -50px; */
+    }
+    .price{
+        width: 50%;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+
+    /* ---------------------------- seccion tercero ---------------------------------*/
+
+    .seccion-3{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .horario-h1{
+        width:auto;
+        font-size: 20px;
+        /* border: 1px solid white; */
+    }
+    .horario{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        margin-left: 0;
+    }
+
+    .horario-open{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        /* border: 1px solid white; */
+    }
+
+    .horario-p{
+        width: auto;
+        height: auto;
+        margin-left: -5px;
+        font-size: 18px;
+    }
+
+    .horario-a{
+        font-size: 18px;
+        margin-left: 40%;
+    }
+
+    .h-b{
+        width: auto;
+        font-size: 20px;
+    }
+
+    .div-horas{
+        width: 100%;
+
+    }
+    .horas{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .dias{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*------------------------------------- footer ------------------------------------------*/
+
+    footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid white; */
+    }
+
+    .footer-logo{
+        width: 10%;
+    }
+
+    .contact-footer{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid white; */
+        /* margin-top: 80px; */
+    }
+
+    .footer-name{
+        width: 30%;
+        font-size: 20px;
+        /* border: 1px solid white; */
+        margin-right:10px;
+    }
+    .footer-div1{
+        /* width: 50%;
+        height: auto;
+    
+        border: 1px solid rgb(229, 0, 0); */
+        display: none;
+    }
+    .footer-div2{
+        width: auto;
+        height: auto;
+
+        gap: 10px;
+        /* border: 1px solid red; */
+    }
+    .up{
+        width: 30%;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .img-tele{
+        width: 10%;
+    }
+    .num{
+        width: 50%;
+        /* border: 1px solid white; */
+        font-size: 20px;
+    }
+    .direccion{
+        width: 100%;
+        /* border: 1px solid white; */
+        font-size: 20px;
+    }
+    .mail{
+        width: 100%;
+        /* border: 1px solid white; */
+        font-size: 20px;
+    }
+
+    .redes{
+        width: auto;
+        padding: 10px;
+        /* border: 1px solid white; */
+        justify-content: space-evenly;
+
+        filter: drop-shadow(1px 1px 10px red);
+    }
+
+    .redes2{
+        width: 15%;
+        height: auto;
+    }
+
+
+    .reserva-h1{
+        font-size: 20px;
+        color: red;
+    }
+
+    .div-reserva{
+        width: 100%;
+        height: auto;
+        gap: 5px;
+    }
+    .p-reserva{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        font-size: 18px;
+        margin-left: 25px;
+        
+    }
+    .btn-reserva{
+        font-size: 15px;
+        margin: 30px;
+    }
+
+    /*---------------------------------------- servicios -----------------------------------*/
+
+
+    .service-seccion{
+        gap: 5px;
+    }
+
+
+    .service-titu{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .div-provide{
+        width: 100%;
+        height: auto;
+        gap: 5px;
+    }
+
+    .div-info-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 0;
+    }
+
+    .service-info{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .service-h2{
+        font-size: 40px;
+    }
+    .service-h1{
+        color: red;
+        font-size: 20px;
+        margin-top:40px;
+    }
+
+    .service-p2{
+        width: 100%;
+        font-size: 15px;
+    }
+
+
+    .img-service{
+        width: 100%;
+        margin: 20px;
+        
+    }
+
+    .service-p{
+        font-size: 15px;
+    }
+    .reserva-service{
+        font-size: 15px;
+        margin-left: 0px;
+
+    }
+    
+    
+    .div-price{
+        width: 100%;
+        height: auto;
+
+        display: none;
+    }
+    .barber-top{
+        width: 70%;
+        font-size: 12px;
+        /* border: 1px solid white; */
+    }
+    .pri{
+        font-size: 10px;
+    }
+
+    /* ------------------------------ aserca de --------------------------*/
+    .main1{
+        width: 100%;
+        height: auto;
+    }
+    .main-h1{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    .main-h2{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .img-main{
+        width: 100%;
+    }
+    .aserca-a{
+        width: 25%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .main-h2-p{
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+    /*------------------------------- contact0 ----------------------------------*/
+
+    .contacto{
+        width: 100%;
+        height: auto;
+
+        margin: 0;
+    }
+
+    .contact-img-1{
+        width: 100%;
+        height: auto;
+    }
+
+    .formulario-contacto{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .contact-h1{
+        font-size: 20px;
+    }
+
+    .contacto-p{
+        width: auto;
+        font-size: 15px;
+    }
+    
+    .campo-formulario{
+        width: 100%;
+        height: auto;
+    }
+    
+    .campo-formulario label {
+        width: 100%;
+        font-size: 10px;
+        color: #ff0000;
+        margin-bottom: 5px;
+    }
+    
+    .campo-formulario input,
+    .campo-formulario textarea {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    
+    
+    .boton-enviar {
+        background-color: #ff0000;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .boton-enviar:hover {
+        background-color: #a60202; /* Cambia de color al pasar el mouse */
+    }
+
+    
+
+}
+
+@media(max-width:376px){
+    .contact-p-29{
+        font-size: 18px;
+    }
+}

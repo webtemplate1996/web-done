@@ -1,0 +1,92 @@
+.seccion{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    padding: 2%;
+    /* border: 1px solid white; */
+}
+
+.name-shadow{
+    width:50% ;
+    height: auto;
+    text-align: center;
+    /* border: 1px solid rgb(122, 87, 234); */
+}
+
+.shadow-h1{
+    width: 70%;
+    height: auto;
+    margin: 200px 0 0 200px;
+    color: white;
+    /* border: 1px solid red; */
+    font-size: 40px;
+    font-family: "oswald", sans-serif;
+}
+
+.shadow{
+    width: 100%;
+    height: auto;
+
+    font-size: 100px;
+    font-family: "oswald", sans-serif;
+    text-align: left;
+
+    color: rgba(128, 128, 128, 0.056);
+
+    margin-top: -40px;
+}
+.section-box{
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* border: 1px solid rgb(192, 0, 0); */
+    padding: 20px;
+}
+.div-cajitas{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    padding: 10px;
+}
+
+.cajitas{
+    width: 50%;
+    height: auto;
+
+    display:flex;
+    flex-direction:column ;
+    gap: 20px;
+}
+
+.p{
+    color: white;
+    font-size: 20px;
+    font-family: "oswald", sans-serif;
+}
+.since-h1{
+    color: white;
+    font-size: 40px;
+    font-family: "oswald", sans-serif;
+}
+.since-p{
+    color: white;
+    font-size: 25px;
+    font-family: "oswald", sans-serif;
+}
+
+.link2{
+    background-color: red;
+    width: 20%;
+    height: auto;
+    font-family: "oswald", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+

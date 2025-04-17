@@ -1,0 +1,125 @@
+.seccion-2{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.services-intro{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    /* border: 1px solid white; */
+    text-align: center;
+}
+
+.shadow-2{
+    width: 50%;
+    font-family: "oswald", sans-serif;
+    font-size: 100px;
+    margin-left: 450px;
+    margin-bottom: -48px;
+    color: rgba(128, 128, 128, 0.085);
+
+    /* border: 1px solid white; */
+}
+
+.shadow-2-h2{
+    color: white;
+    font-size: 80px;
+    font-family: "oswald", sans-serif;
+    margin-left: 300px;
+}
+
+.intro-p{
+    width: 50%;
+    height: auto;
+
+    margin-left: 300px;
+    color: white;
+    font-family: "oswald", sans-serif;
+    font-size: 25px;
+}
+
+.services{
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* border: 1px solid white; */
+    margin-left: 110px;
+
+    
+}
+
+.small-box{
+    width: 27%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    /* border: 1px solid white; */
+    padding: 0px 20px 0px 20px;
+}
+
+.service-box{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.H-cut{
+    width: 100px;
+    height: auto;
+}
+.corte-pelo{
+    color: white;
+    font-family: "oswald", sans-serif;
+    font-size: 30px;
+}
+
+.service-box-2{
+    width: 70%;
+    height: auto;
+    /* border: 1px solid white; */
+    margin-left: 140px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.service-box-3{
+    width: 70%;
+    height: auto;
+    /* border: 1px solid white; */
+    margin-left: 140px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.service-box-p{
+    color: white;
+    font-family: "oswald", sans-serif;
+    font-size: 18px;
+}
+.price{
+    color: red;
+    font-family: "oswald", sans-serif;
+    font-size: 25px
+}

@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main1{
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+
+    gap: 40px;
+}
+
+.main-h1{
+    color: white;
+    font-family: "oswald", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-h2{
+    color: red;
+    font-family: "oswald", sans-serif;
+}
+
+.main-h2-p{
+    color: rgb(238, 97, 97);
+    font-family: "oswald", sans-serif;
+}
+
+.img-main{
+    width: 60%;
+    height: auto;
+}
+
+.aserca-a{
+    color: white;
+    background-color: red;
+    width: 10%;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+}

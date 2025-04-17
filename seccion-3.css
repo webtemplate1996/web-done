@@ -1,0 +1,121 @@
+.seccion-3{
+    background-image: url('./img/BANERRRR.svg');
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+    display:flex;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    overflow: hidden;
+    /* opacity: 0.3; */
+}
+
+.horario{
+    width: 35%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
+    margin-left: 300px;
+    gap: 30px;
+    padding: 10px;
+    /* border: 1px solid white; */
+}
+
+.horario-h1{
+    width: 80%;
+    height: auto;
+
+    font-family: "oswald", sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.horario-p{
+    width: 80%;
+    height: auto;
+
+    font-family: "oswald", sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.horario-a{
+    width:25% ;
+    height: auto;
+
+    background-color: red;
+    font-family: "oswald", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
+.horario-a:hover{
+    background-color: rgb(107, 46, 46);
+    transition: 0.5s ease-in-out;
+    color: black;
+}
+.horario-open{
+    width: 40%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: left;
+    margin-left: 200px;
+    gap: 50px;
+    
+    /* border: 1px solid white; */
+}
+
+.h-b{
+    color: rgb(145, 145, 145);
+    width: 80%;
+    height: auto;
+
+    font-family: "oswald", sans-serif;
+    font-size: 35px;
+    margin: 60px;
+    text-align: center;
+}
+
+.horas{
+    width: 100%;
+    height: auto;
+
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.div-horas{
+    width: 35%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 25px;
+    /* border: 1px solid red; */
+}
+
+.dias{
+    color: rgb(159, 159, 159);
+    font-family: "oswald", sans-serif;
+    font-size: 35px;
+}
+#sab{
+    color: red;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/logo2.0.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="style_h.css">
+    <link rel="stylesheet" href="seccion.css">
+    <link rel="stylesheet" href="seccion2.css">
+    <link rel="stylesheet" href="seccion-3.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="efecto.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>CORTE SUPREMO</title>
+</head>
+
+<body>
+
+    <header class="header-">
+        <nav class="nav-">
+
+            <div class="div-logo-name">
+                <img class="logo" src="./img/logo2.0.svg" alt="Logo">
+                <a href="index.html" class="name-company">CORTE SUPREMO</a>
+            </div>
+
+            <div class="div-links" id="div-l">
+                <a href="index.html" class="link">INICIO</a>
+                <a href="servicios.html" class="link">SERVICIOS</a>
+                <a href="asercaDe.html" class="link">ACERCA DE</a>
+                <a href="contact.html" class="link">CONTACTO</a>
+                <div class="close" id="close">X</div>
+            </div>
+            <a href="contact.html" class="btn">CITAS</a>
+
+            <div class="menu-btn" id="menu-btn"> ☰ </div>
+        </nav>
+
+        <div class="div-header">
+
+            <div class="div-img">
+                <img class="img-" src="./img/contactBaner.png" alt="Barberia-portada">
+            </div>
+
+        </div>
+    </header>
+
+    <h1 class="contact-h1">Contacta con CORTE SUPREMO y Reserva Tu Corte al Mejor Precio </h1>
+    <p class="contact-p-23">¿Listo para lucir fresco? Déjanos tus datos y te contactaremos pronto.</p>
+    <section class="contacto">
+        
+        <img class="contact-img-1" src="/img/13.jpg" alt="">
+
+        <form action="" method="POST" class="formulario-contacto">
+            <!-- Campo para el nombre -->
+            <div class="campo-formulario">
+                <label class="label-nom" for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+            </div>
+
+            <!-- Campo para el correo electrónico -->
+            <div class="campo-formulario">
+                <label class="label-nom" for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Ej: juan@example.com" required>
+            </div>
+
+            <!-- Campo para la fecha -->
+            <div class="campo-formulario">
+                <label for="fecha">Fecha de la cita:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+
+            <div class="campo-formulario">
+                <label for="hora">Hora de la cita:</label>
+                <input type="time" id="hora" name="hora" required>
+            </div>
+
+            <!-- Campo para el mensaje -->
+            <div class="campo-formulario">
+                <label class="label-nom" for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Ej: Quiero reservar una cita para este viernes..."
+                    rows="5" required></textarea>
+            </div>
+
+            <!-- Botón de envío -->
+            <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+        </form>
+
+        <p class="contact-p-29">
+            En nuestra peluquería en Houston, realzamos tu estilo con cortes, tintes y tratamientos de calidad. Nuestro equipo de expertos te ofrece atención personalizada para que salgas renovado y con confianza. ¡Agenda tu cita hoy y descubre por qué somos tu mejor opción en Houston!
+        </p>
+    </section>
+
+
+    <footer>
+        <div class="footer-div1">
+            <img class="footer-logo" src="./img/logo2.0.svg" alt="logo de barberia">
+            <h2 class="footer-name">CORTE SUPREMO</h2>
+        </div>
+
+        <a class="up" href="contact.html">↑ Inicio</a>
+
+        <div class="footer-div2">
+
+            <div class="contact-footer">
+                <img class="img-tele" src="./img/telephone.svg" alt="imagen de telefono de barberia">
+                <span class="num">+1 234 567 890</span>
+            </div>
+
+            <span class="direccion">
+                3891 Ranchview Dr. Richardson,
+                California 62639
+            </span>
+
+            <span class="mail">cortesumpremo@mail.com</span>
+
+            <div class="redes">
+                <a class="redes2" href=""> <img class="red" src="./img/face.svg" alt="facebook logo de baberia"></a>
+                <a class="redes2" href=""> <img class="red" src="./img/insta.svg" alt="instagram logo de baberia"></a>
+                <a class="redes2" href=""> <img class="red" src="./img/x.svg" alt=" x logo de baberia"></a>
+
+            </div>
+
+
+
+            
+        </div>
+
+        <div class="div-reserva">
+            <h1 class="reserva-h1">RESERVA</h1>
+            <p class="p-reserva">
+                Reserva tu cita en nuestra barbería y consigue un corte de cabello impecable con estilo y precisión.
+                Ofrecemos servicio profesional, atención personalizada y un ambiente cómodo. ¡Agéndala hoy y luce
+                increíble!
+            </p>
+
+            <a class="btn-reserva" href="contact.html">CITAS</a>
+
+        </div>
+    </footer>
+    <p class="copy">&copy; 2025 CORTE SUPREMO. Todos los derechos reservados.</p>
+    <script src="script.js"></script>
+</body>
+
+</html>
