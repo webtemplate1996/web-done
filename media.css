@@ -912,6 +912,536 @@
     
 }
 
+@media(max-width:445px){
+    .name-company{
+        width: 75%;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .div-links{
+        display: none;
+    }
+
+    .div-links.visible{
+        display: block;
+        width: 40%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+        top: 11px;
+        left: 9px;
+        z-index: 2;
+
+        background-color: rgb(33, 33, 33);
+        box-shadow: 1px 1px 10px white;
+
+        border-radius: 25px;
+    }
+
+    .logo{
+        width: 25%;
+    }
+    .link{
+        font-size: 15px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    .btn{
+        width: auto;
+        font-size: 13px;
+    }
+    
+    .close{
+        display:block;
+
+        position: absolute;
+        top: 10px;
+        left: 10px;
+
+        font-size: 30px;
+        color: rgb(114, 0, 0);
+    }
+    .menu-btn{
+        display: block;
+        width: 60px;
+        /* border: 1px solid white; */
+        color: rgb(234, 77, 77);
+
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        top: 40px;
+        left: 8px;
+    }
+
+
+    .nav-{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /*--------------------------------- primera seccion------------------------- */
+
+    .seccion{
+        margin-top: -220px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name-shadow{
+        width: 80%;
+        height: auto;
+    }
+
+    .shadow-h1{
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .shadow{
+        width: 100%;
+        height: auto;
+        font-size:30px;
+    }
+    .section-box{
+        width: 100%;
+    }
+
+    .p{
+        font-size: 15px;
+    }
+    .since-h1{
+        font-size: 15px;
+        color: red;
+    }
+    .since-p{
+        font-size: 15px;
+    }
+    .link2{
+        font-size: 15px;
+    }
+
+    /* -------------------------------- seccion segunda --------------------------------*/
+
+    
+    .shadow-2{
+        font-size: 50px;
+        margin-left: 10px;
+    }
+
+    .shadow-2-h2{
+        font-size: 40px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    .service-intro{
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .intro-p{
+        width: 100%;
+        height: auto;
+
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .corte-pelo{
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .H-cut{
+        width: 30%;
+    }
+
+    .services{
+        width: 100%;
+        margin-left: 0px;
+        /* border: 1px solid rgb(216, 31, 31); */
+
+        flex-direction: column;
+        align-items: center;
+    }
+    .small-box{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid rgb(8, 37, 255); */
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .service-box{
+        width: 100%;
+        /* border: 1px solid white; */
+        margin-left: 0px;
+        align-items: center;
+    }
+    .service-box-2{
+        width: auto;
+        /* border: 1px solid rgb(12, 234, 234); */
+        margin-left: 0px;
+    }
+
+    .service-box-3{
+        width: auto;
+        margin-left: 0;
+    }
+    .service-box-p{
+        width: 100%;
+        font-size: 13px;
+        /* border: 1px solid green; */
+        /* margin-left: -50px; */
+    }
+    .price{
+        width: 50%;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+
+    /* ---------------------------- seccion tercero ---------------------------------*/
+
+    .seccion-3{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .horario-h1{
+        width:auto;
+        font-size: 20px;
+        /* border: 1px solid white; */
+    }
+    .horario{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        margin-left: 0;
+    }
+
+    .horario-open{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        /* border: 1px solid white; */
+    }
+
+    .horario-p{
+        width: auto;
+        height: auto;
+        margin-left: -5px;
+        font-size: 18px;
+    }
+
+    .horario-a{
+        font-size: 18px;
+        margin-left: 40%;
+    }
+
+    .h-b{
+        width: auto;
+        font-size: 20px;
+    }
+
+    .div-horas{
+        width: 100%;
+
+    }
+    .horas{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .dias{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*------------------------------------- footer ------------------------------------------*/
+
+    footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid white; */
+    }
+
+    .footer-logo{
+        width: 10%;
+    }
+
+    .contact-footer{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid white; */
+        /* margin-top: 80px; */
+    }
+
+    .footer-name{
+        width: 30%;
+        font-size: 20px;
+        /* border: 1px solid white; */
+        margin-right:10px;
+    }
+    .footer-div1{
+        /* width: 50%;
+        height: auto;
+    
+        border: 1px solid rgb(229, 0, 0); */
+        display: none;
+    }
+    .footer-div2{
+        width: auto;
+        height: auto;
+
+        gap: 10px;
+        /* border: 1px solid red; */
+    }
+    .up{
+        width: 30%;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .img-tele{
+        width: 10%;
+    }
+    .num{
+        width: 50%;
+        /* border: 1px solid white; */
+        font-size: 20px;
+    }
+    .direccion{
+        width: 100%;
+        /* border: 1px solid white; */
+        font-size: 20px;
+    }
+    .mail{
+        width: 100%;
+        /* border: 1px solid white; */
+        font-size: 20px;
+    }
+
+    .redes{
+        width: auto;
+        padding: 10px;
+        /* border: 1px solid white; */
+        justify-content: space-evenly;
+
+        filter: drop-shadow(1px 1px 10px red);
+    }
+
+    .redes2{
+        width: 15%;
+        height: auto;
+    }
+
+
+    .reserva-h1{
+        font-size: 20px;
+        color: red;
+    }
+
+    .div-reserva{
+        width: 100%;
+        height: auto;
+        gap: 5px;
+    }
+    .p-reserva{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        font-size: 18px;
+        margin-left: 25px;
+        
+    }
+    .btn-reserva{
+        font-size: 15px;
+        margin: 30px;
+    }
+
+    /*---------------------------------------- servicios -----------------------------------*/
+
+
+    .service-seccion{
+        gap: 5px;
+    }
+
+
+    .service-titu{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .div-provide{
+        width: 100%;
+        height: auto;
+        gap: 5px;
+    }
+
+    .div-info-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 0;
+    }
+
+    .service-info{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .service-h2{
+        font-size: 40px;
+    }
+    .service-h1{
+        color: red;
+        font-size: 20px;
+        margin-top:40px;
+    }
+
+    .service-p2{
+        width: 100%;
+        font-size: 15px;
+    }
+
+
+    .img-service{
+        width: 100%;
+        margin: 20px;
+        
+    }
+
+    .service-p{
+        font-size: 15px;
+    }
+    .reserva-service{
+        font-size: 15px;
+        margin-left: 0px;
+
+    }
+    
+    
+    .div-price{
+        width: 100%;
+        height: auto;
+
+        display: none;
+    }
+    .barber-top{
+        width: 70%;
+        font-size: 12px;
+        /* border: 1px solid white; */
+    }
+    .pri{
+        font-size: 10px;
+    }
+
+    /* ------------------------------ aserca de --------------------------*/
+    .main1{
+        width: 100%;
+        height: auto;
+    }
+    .main-h1{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    .main-h2{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .img-main{
+        width: 100%;
+    }
+    .aserca-a{
+        width: 25%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .main-h2-p{
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+    /*------------------------------- contact0 ----------------------------------*/
+
+    .contacto{
+        width: 100%;
+        height: auto;
+
+        margin: 0;
+    }
+
+    .contact-img-1{
+        width: 100%;
+        height: auto;
+    }
+
+    .formulario-contacto{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .contact-h1{
+        font-size: 20px;
+    }
+
+    .contacto-p{
+        width: auto;
+        font-size: 15px;
+    }
+    
+    .campo-formulario{
+        width: 100%;
+        height: auto;
+    }
+    
+    .campo-formulario label {
+        width: 100%;
+        font-size: 10px;
+        color: #ff0000;
+        margin-bottom: 5px;
+    }
+    
+    .campo-formulario input,
+    .campo-formulario textarea {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    
+    
+    .boton-enviar {
+        background-color: #ff0000;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .boton-enviar:hover {
+        background-color: #a60202; /* Cambia de color al pasar el mouse */
+    }
+}
+
 @media(max-width:426px){
      /* ----------------------------cabecera y barra de navegacion -------------------------- */
     
@@ -1452,3 +1982,4 @@
         font-size: 18px;
     }
 }
+
